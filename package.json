@@ -8,9 +8,12 @@
     "dev": "tsc --watch",
     "lint:check": "eslint **/*.ts",
     "lint:fix": "eslint --fix",
-    "prettier:check": "yarn prettier --write .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
-    "prepare": "husky"
+    "prettier:check": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prepare": "husky",
+    "lint-prettier": "yarn lint:check && yarn prettier:check"
+  },
+  "lint-staged": {
+    "src/**/*.ts": "yarn lint-prettier"
   },
   "author": "Rafi Samnan",
   "license": "ISC",
@@ -33,6 +36,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "lint-staged": "12.3.2",
     "mongoose": "^7.5.3"
   }
 }
