@@ -5,15 +5,29 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc --watch",
+    "lint:check": "eslint **/*.ts",
+    "lint:fix": "eslint --fix",
+    "prettier:check": "yarn prettier --write .",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
+    "prepare": "husky"
   },
   "author": "Rafi Samnan",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.9.1",
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.20",
+    "@typescript-eslint/eslint-plugin": "^8.4.0",
+    "@typescript-eslint/parser": "^8.4.0",
+    "eslint": "^9.9.1",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.9.0",
+    "husky": "^9.1.5",
+    "prettier": "^3.3.3",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^8.4.0"
   },
   "dependencies": {
     "cors": "^2.8.5",
