@@ -16,7 +16,6 @@ app.get('/', async (req: Request, res: Response) => {
     email: 'info@example.com',
     role: 'admin',
     password: '1234',
-
   })
   res.send('Hello World!')
 })
