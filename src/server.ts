@@ -1,12 +1,12 @@
-import mongoose from 'mongoose';
-import app from './app';
-import config from './config';
+import mongoose from 'mongoose'
+import app from './app'
+import config from './config'
 
 async function Main() {
-  const url : string = config.database_url || '';
+  const url: string = config.database_url || ''
   try {
     await mongoose.connect(url)
-                            console.log('Database connected successfully')
+    console.log('Database connected successfully')
     app.listen(config.port, () => {
       console.log(`Our Application listening on port ${config.port}`)
     })
