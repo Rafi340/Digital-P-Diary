@@ -6,5 +6,7 @@
 4.  Query
 5.  Aggregation
 6.  Transaction & Rollback
+7.  Eslint and Prettier
+8.  Using Husky for pre-commit checking
 
 - Here I developed this project using Modular Pattern
