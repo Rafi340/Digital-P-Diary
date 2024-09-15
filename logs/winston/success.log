@@ -1,0 +1,10 @@
+{"level":"info","message":"Database connected successfully","service":"user-service"}
+{"level":"info","message":"Our Application listening on port 5000","service":"user-service"}
+{"level":"info","message":"Database connected successfully","service":"user-service"}
+{"level":"info","message":"Our Application listening on port 5000","service":"user-service"}
+{"level":"info","message":"Database connected successfully","service":"user-service"}
+{"level":"info","message":"Our Application listening on port 5000","service":"user-service"}
+2024-09-15T17:47:27.884Z [right meow!] info: Database connected successfully
+2024-09-15T17:47:27.891Z [right meow!] info: Our Application listening on port 5000
+2024-09-15T17:49:01.756Z [right meow!] info: Database connected successfully
+2024-09-15T17:49:01.761Z [right meow!] info: Our Application listening on port 5000

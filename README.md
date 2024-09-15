@@ -9,4 +9,28 @@
 7.  Eslint and Prettier
 8.  Using Husky for pre-commit checking
 
-- Here I developed this project using Modular Pattern
+# I use here Microservice and Features for this project
+
+1. **Authentication (Auth)**  
+   Handles user authentication and authorization.
+
+2. **Management**  
+   Responsible for managing user accounts, profiles, and other administrative features.
+
+3. **Payment**  
+   Handles all payment-related operations, including transaction processing and billing.
+
+4. **Activity**  
+   Tracks and logs user activity within the system.
+
+### Diagram Representation (Optional)
+
+You can include a flow diagram to represent the relationships visually.
+
+```mermaid
+graph LR
+    Auth --> Management
+    Management --> Payment
+    Payment --> Activity
+
+```
