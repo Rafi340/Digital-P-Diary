@@ -1,10 +1,14 @@
-import path from 'path'
-import { createLogger, format, transports } from 'winston'
+import path from 'path';
+import { createLogger, format, transports } from 'winston';
 
 const { combine, timestamp, label, printf, prettyPrint } = format
 
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  return `${timestamp} [${label}] ${level}: ${message}`
+ const date = new Date(timestamp);
+ const hour = date.getHours();
+ const minutes = date.getMinutes();
+ const seconds = date.getSeconds();
+  return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`
 })
 const logger = createLogger({
   level: 'info',
@@ -40,4 +44,5 @@ const errorLogger = createLogger({
     }),
   ],
 })
-export { errorLogger, logger }
+export { errorLogger, logger };
+
