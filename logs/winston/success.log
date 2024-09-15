@@ -8,3 +8,31 @@
 2024-09-15T17:47:27.891Z [right meow!] info: Our Application listening on port 5000
 2024-09-15T17:49:01.756Z [right meow!] info: Database connected successfully
 2024-09-15T17:49:01.761Z [right meow!] info: Our Application listening on port 5000
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: '!😎😎!',
+  timestamp: '2024-09-15T17:53:25.617Z'
+}
+{
+  message: 'Our Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: '!😎😎!',
+  timestamp: '2024-09-15T17:53:25.626Z'
+}
+{
+  message: 'Database connected successfully',
+  level: 'info',
+  service: 'user-service',
+  label: '!😎😎!',
+  timestamp: '2024-09-15T17:54:26.571Z'
+}
+{
+  message: 'Our Application listening on port 5000',
+  level: 'info',
+  service: 'user-service',
+  label: '!😎😎!',
+  timestamp: '2024-09-15T17:54:26.578Z'
+}

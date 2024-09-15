@@ -12,7 +12,7 @@ async function Main() {
       logger.info(`Our Application listening on port ${config.port}`)
     })
   } catch (err) {
-    errorLogger.error("Failed to listening database",err)
+    errorLogger.error('Failed to listening database', err)
   }
 }
 Main()
