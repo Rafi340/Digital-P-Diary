@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\.202ad6c57583c753efec177fd7d3c28843592056-audit.json",
+    "files": [
+        {
+            "date": 1726468223745,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-12-success.log",
+            "hash": "c842ea21431631ca213ff6087d540bdb980dea7bb18cd0c597ce65d7a6e84c92"
+        },
+        {
+            "date": 1726478233641,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-15-success.log",
+            "hash": "28d75f1b7f8c830a171a6d173d277dbefea0afba1ba3565c33cd8ff3cd088286"
+        },
+        {
+            "date": 1726486321477,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-17-success.log",
+            "hash": "05ec9d7e629e1c5a6bab8127237d569c8dc4a10ebb308921b7889906cb633e75"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,6 +1,6 @@
-import path from 'path'
-import { createLogger, format, transports } from 'winston'
-
+import path from 'path';
+import { createLogger, format, transports } from 'winston';
+import DailyRotateFile from 'winston-daily-rotate-file';
 const { combine, timestamp, label, printf, prettyPrint } = format
 
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -10,6 +10,7 @@ const myFormat = printf(({ level, message, label, timestamp }) => {
   const seconds = date.getSeconds()
   return `${date.toDateString()} ${hour}:${minutes}:${seconds} [${label}] ${level}: ${message}`
 })
+
 const logger = createLogger({
   level: 'info',
   format: combine(
@@ -21,16 +22,20 @@ const logger = createLogger({
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
-    new transports.File({
-      filename: path.join(process.cwd(), 'logs', 'winston', 'success.log'),
+    new DailyRotateFile({
       level: 'info',
+      filename: path.join(process.cwd(),'logs','winston','success','sh-%DATE%-success.log'),
+      datePattern: 'YYYY-MM-DD-HH',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d'
     }),
   ],
 })
 const errorLogger = createLogger({
   level: 'error',
   format: combine(
-    label({ label: 'right meow!' }),
+    label({ label: '😤😤😤' }),
     timestamp(),
     myFormat,
     prettyPrint(),
@@ -38,10 +43,15 @@ const errorLogger = createLogger({
   defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
-    new transports.File({
-      filename: path.join(process.cwd(), 'logs', 'winston', 'error.log'),
+    new DailyRotateFile({
       level: 'error',
-    }),
+      filename: path.join(process.cwd(),'logs','winston','error','sh-%DATE%-error.log'),
+      datePattern: 'YYYY-MM-DD-HH',
+      zippedArchive: true,
+      maxSize: '20m',
+      maxFiles: '14d'
+    })
   ],
 })
-export { errorLogger, logger }
+export { errorLogger, logger };
+

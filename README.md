@@ -34,3 +34,25 @@ graph LR
     Payment --> Activity
 
 ```
+
+## Error Handling Express
+
+Operational Error
+
+- Invalid User Input
+- Fail to run server
+- Failed to connect DB
+- Broken links
+  Here I handle this type of error
+
+* Programmatical Error
+* unHandled Rejection
+* Uncaught Exception
+
+# Also create Global handler for every section
+
+- HandleMongo Validation Error
+- HandleMongo Sever Error
+- Handle Zod Error
+- handle mongo Cast Error
+- Api Error handler
