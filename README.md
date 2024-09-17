@@ -23,7 +23,7 @@
 4. **Activity**  
    Tracks and logs user activity within the system.
 
-### Diagram Representation (Optional)
+### Diagram Representation
 
 You can include a flow diagram to represent the relationships visually.
 
@@ -45,7 +45,7 @@ Operational Error
 - Broken links
   Here I handle this type of error
 
-* Programmatical Error
+* Programmatically Error
 * unHandled Rejection
 * Uncaught Exception
 

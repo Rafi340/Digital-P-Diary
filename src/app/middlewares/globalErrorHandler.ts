@@ -6,7 +6,15 @@ const globalErrorHandler = (
   res: Response,
   next: NextFunction,
 ) => {
-  res.status(400).json({ error: err })
+ /*  let statusCode = 500;
+  let message = 'SOme'
+
+  res.status().json({
+    success: false,
+    message,
+    errorMessage,
+    stack: config.env !== 'production' ? err?.stack : undefined
+  }) */
   next()
 }
 export default globalErrorHandler
