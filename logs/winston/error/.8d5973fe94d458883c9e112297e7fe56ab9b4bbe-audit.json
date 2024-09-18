@@ -1,30 +1,30 @@
 {
-    "keep": {
-        "days": true,
-        "amount": 14
+  "keep": {
+    "days": true,
+    "amount": 14
+  },
+  "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\.8d5973fe94d458883c9e112297e7fe56ab9b4bbe-audit.json",
+  "files": [
+    {
+      "date": 1726468223748,
+      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-12-error.log",
+      "hash": "fde29481981c5300f6d591c8387caa17442c7e5a9d704ee0f71fa3a670880fe2"
     },
-    "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\.8d5973fe94d458883c9e112297e7fe56ab9b4bbe-audit.json",
-    "files": [
-        {
-            "date": 1726468223748,
-            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-12-error.log",
-            "hash": "fde29481981c5300f6d591c8387caa17442c7e5a9d704ee0f71fa3a670880fe2"
-        },
-        {
-            "date": 1726478233652,
-            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-15-error.log",
-            "hash": "161c0453c8a5069fe66ff1b188c8e670c1ce8ca684a92692188f14c6888074a8"
-        },
-        {
-            "date": 1726486321479,
-            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-17-error.log",
-            "hash": "e805af7a050b63b4fc13d122ab0c924b82b6b3cc3a58a7b133d14f24f44fe4ce"
-        },
-        {
-            "date": 1726594760569,
-            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-17-23-error.log",
-            "hash": "2aa53dad2d10b8e8b79ef8c85f8607b428d8b7206adb5ad156d55e4b35ee36cc"
-        }
-    ],
-    "hashType": "sha256"
+    {
+      "date": 1726478233652,
+      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-15-error.log",
+      "hash": "161c0453c8a5069fe66ff1b188c8e670c1ce8ca684a92692188f14c6888074a8"
+    },
+    {
+      "date": 1726486321479,
+      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-17-error.log",
+      "hash": "e805af7a050b63b4fc13d122ab0c924b82b6b3cc3a58a7b133d14f24f44fe4ce"
+    },
+    {
+      "date": 1726594760569,
+      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-17-23-error.log",
+      "hash": "2aa53dad2d10b8e8b79ef8c85f8607b428d8b7206adb5ad156d55e4b35ee36cc"
+    }
+  ],
+  "hashType": "sha256"
 }
