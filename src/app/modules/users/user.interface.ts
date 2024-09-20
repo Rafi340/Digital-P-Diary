@@ -1,3 +1,5 @@
+import { Model } from "mongoose"
+
 export type IUser = {
   id: string
   name: string
@@ -6,3 +8,4 @@ export type IUser = {
   password: string
   avatar?: string
 }
+export type UserModel = Model<IUser, Record<string, unknown>>;
