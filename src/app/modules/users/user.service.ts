@@ -18,5 +18,5 @@ const createUser = async (user: IUser): Promise<IUser | null> => {
 }
 
 export const userService = {
-  createUser
+  createUser,
 }

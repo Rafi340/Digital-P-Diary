@@ -1,4 +1,4 @@
-import { Model } from "mongoose"
+import { Model } from 'mongoose'
 
 export type IUser = {
   id: string
@@ -8,4 +8,4 @@ export type IUser = {
   password: string
   avatar?: string
 }
-export type UserModel = Model<IUser, Record<string, unknown>>;
+export type UserModel = Model<IUser, Record<string, unknown>>
