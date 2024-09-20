@@ -4,12 +4,7 @@ import { IGenericErrorMessage } from '../../interfaces/error'
 import ApiError from '../errors/ApiError'
 import handleValidationError from '../errors/handleValidationError'
 
-const globalErrorHandler : ErrorRequestHandler = (
-  error,
-  req,
-  res,
-  next,
-) => {
+const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessages: IGenericErrorMessage[] = []
