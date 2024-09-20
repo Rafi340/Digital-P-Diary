@@ -1,22 +1,21 @@
-import { NextFunction, Request, Response } from 'express'
-import { error } from 'winston'
+import { ErrorRequestHandler } from 'express'
 import config from '../../config'
 import { IGenericErrorMessage } from '../../interfaces/error'
 import ApiError from '../errors/ApiError'
 import handleValidationError from '../errors/handleValidationError'
 
-const globalErrorHandler = (
-  err,
-  req: Request,
-  res: Response,
-  next: NextFunction,
+const globalErrorHandler : ErrorRequestHandler = (
+  error,
+  req,
+  res,
+  next,
 ) => {
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessages: IGenericErrorMessage[] = []
 
-  if (err.name === 'ValidationError') {
-    const simplifiedError = handleValidationError(err)
+  if (error.name === 'ValidationError') {
+    const simplifiedError = handleValidationError(error)
     statusCode = simplifiedError.statusCode
     message = simplifiedError.message
     errorMessages = simplifiedError.errorMessages
@@ -47,7 +46,7 @@ const globalErrorHandler = (
     success: false,
     message,
     errorMessages,
-    stack: config.env !== 'production' ? err?.stack : undefined,
+    stack: config.env !== 'production' ? error?.stack : undefined,
   })
   next()
 }
