@@ -1,30 +1,50 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\.8d5973fe94d458883c9e112297e7fe56ab9b4bbe-audit.json",
-  "files": [
-    {
-      "date": 1726468223748,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-12-error.log",
-      "hash": "fde29481981c5300f6d591c8387caa17442c7e5a9d704ee0f71fa3a670880fe2"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1726478233652,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-15-error.log",
-      "hash": "161c0453c8a5069fe66ff1b188c8e670c1ce8ca684a92692188f14c6888074a8"
-    },
-    {
-      "date": 1726486321479,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-17-error.log",
-      "hash": "e805af7a050b63b4fc13d122ab0c924b82b6b3cc3a58a7b133d14f24f44fe4ce"
-    },
-    {
-      "date": 1726594760569,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-17-23-error.log",
-      "hash": "2aa53dad2d10b8e8b79ef8c85f8607b428d8b7206adb5ad156d55e4b35ee36cc"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\.8d5973fe94d458883c9e112297e7fe56ab9b4bbe-audit.json",
+    "files": [
+        {
+            "date": 1726468223748,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-12-error.log",
+            "hash": "fde29481981c5300f6d591c8387caa17442c7e5a9d704ee0f71fa3a670880fe2"
+        },
+        {
+            "date": 1726478233652,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-15-error.log",
+            "hash": "161c0453c8a5069fe66ff1b188c8e670c1ce8ca684a92692188f14c6888074a8"
+        },
+        {
+            "date": 1726486321479,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-16-17-error.log",
+            "hash": "e805af7a050b63b4fc13d122ab0c924b82b6b3cc3a58a7b133d14f24f44fe4ce"
+        },
+        {
+            "date": 1726594760569,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-17-23-error.log",
+            "hash": "2aa53dad2d10b8e8b79ef8c85f8607b428d8b7206adb5ad156d55e4b35ee36cc"
+        },
+        {
+            "date": 1726855200796,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-21-00-error.log",
+            "hash": "e96b30f53ddd6707d7ae6717832c7006a5142021a77021f3adfd286013e6ea00"
+        },
+        {
+            "date": 1726898094546,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-21-11-error.log",
+            "hash": "ebe0b8b1b34996e1c0e40bd9b92949680fb3cdfdf9f007809389f0852646e9ac"
+        },
+        {
+            "date": 1726898487846,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-21-12-error.log",
+            "hash": "d18c4bae9c8cf92539e07e40f9bb5fc73effd7ab78c9c2956686c876b905208e"
+        },
+        {
+            "date": 1726933107450,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\error\\sh-2024-09-21-21-error.log",
+            "hash": "576a4c56e73988f648fdee19c5db566f880842b3d426497bb3ea1f680d7dd11d"
+        }
+    ],
+    "hashType": "sha256"
 }
