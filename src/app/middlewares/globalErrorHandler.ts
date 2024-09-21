@@ -6,9 +6,15 @@ import { errorLogger } from '../../shared/logger'
 import ApiError from '../errors/ApiError'
 import handleValidationError from '../errors/handleValidationError'
 
-const globalErrorHandler: ErrorRequestHandler = (error, req : Request, res: Response, next: NextFunction) => {
-
-  config.env === 'development' ? console.log('😤😤 globalErrorHandler ~',error) : errorLogger.error(`😤😤 globalErrorHandler ~`, error )
+const globalErrorHandler: ErrorRequestHandler = (
+  error,
+  req: Request,
+  res: Response,
+  next: NextFunction,
+) => {
+  config.env === 'development'
+    ? console.log('😤😤 globalErrorHandler ~', error)
+    : errorLogger.error(`😤😤 globalErrorHandler ~`, error)
   let statusCode = 500
   let message = 'Something went wrong'
   let errorMessages: IGenericErrorMessage[] = []
