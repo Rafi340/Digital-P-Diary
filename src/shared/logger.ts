@@ -19,7 +19,6 @@ const logger = createLogger({
     myFormat,
     prettyPrint(),
   ),
-  defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
     new DailyRotateFile({
@@ -46,7 +45,6 @@ const errorLogger = createLogger({
     myFormat,
     prettyPrint(),
   ),
-  defaultMeta: { service: 'user-service' },
   transports: [
     new transports.Console(),
     new DailyRotateFile({
