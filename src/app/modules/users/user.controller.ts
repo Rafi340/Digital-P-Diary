@@ -7,18 +7,18 @@ const createUser: RequestHandler = async (req, res, next) => {
     const createUserZodSchema = z.object({
       body: z.object({
         role: z.string({
-          required_error: 'role is required'
+          required_error: 'role is required',
         }),
         email: z.string({
-          required_error: 'email is required'
+          required_error: 'email is required',
         }),
         name: z.string({
-          required_error: 'name is required'
-        })
-      })
+          required_error: 'name is required',
+        }),
+      }),
     })
 
-    await createUserZodSchema.parseAsync(req);
+    await createUserZodSchema.parseAsync(req)
     const { user } = req.body
     const result = await userService.createUser(user)
     res.status(200).json({
