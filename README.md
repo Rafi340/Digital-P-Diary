@@ -1,5 +1,7 @@
 # THis is School management and diary of school management
 
+# Your Data is secured. BlockChain technology use here.
+
 1.  Professional project architecture
 2.  Advanced Error handling
 3.  No Sql database (MongoDB)
