@@ -1,70 +1,75 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\.202ad6c57583c753efec177fd7d3c28843592056-audit.json",
-  "files": [
-    {
-      "date": 1726468223745,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-12-success.log",
-      "hash": "c842ea21431631ca213ff6087d540bdb980dea7bb18cd0c597ce65d7a6e84c92"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1726478233641,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-15-success.log",
-      "hash": "28d75f1b7f8c830a171a6d173d277dbefea0afba1ba3565c33cd8ff3cd088286"
-    },
-    {
-      "date": 1726486321477,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-17-success.log",
-      "hash": "05ec9d7e629e1c5a6bab8127237d569c8dc4a10ebb308921b7889906cb633e75"
-    },
-    {
-      "date": 1726594760553,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-17-23-success.log",
-      "hash": "6e748239b89b9b89ae2d84fd5a300914df78a17ec13b925d363d5987220bc992"
-    },
-    {
-      "date": 1726855200792,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-00-success.log",
-      "hash": "a18439ba3e3dc433c75723a69163c1e2c67b9c069f600e3f176542184cc38ebd"
-    },
-    {
-      "date": 1726898094526,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-11-success.log",
-      "hash": "c0488adeca59b19fb552f79f9b5dd1c15669c33a92a69f7766633769c32046bb"
-    },
-    {
-      "date": 1726898487842,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-12-success.log",
-      "hash": "1df647ad6c845c65cba30af29982d35958900bdb2c03f19e7603f403114c0eac"
-    },
-    {
-      "date": 1726933107447,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-21-success.log",
-      "hash": "e718a592e7136e29e24b19c67cdb99871a319d11d318a95137d49cd83c597357"
-    },
-    {
-      "date": 1726949493937,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-02-success.log",
-      "hash": "be645068be68d262a9b670ef3db98cf8ec17fe1671667c3e9c79357a5e73b0a4"
-    },
-    {
-      "date": 1727020096693,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-21-success.log",
-      "hash": "cdd26b1023a1ada2b90a3beb7992890d43225132d0b235f4104ea5b5f4703f23"
-    },
-    {
-      "date": 1727021031025,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-22-success.log",
-      "hash": "3b0c2e38c08e5302a5f152a367a95bbad1ce6c8cc32786a36fbf51e4de8bc05b"
-    },
-    {
-      "date": 1727110986349,
-      "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-23-23-success.log",
-      "hash": "2dec66799525bfe4d68b75b7766add071ecf63a2470f78b38bbc538c92893a5a"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\.202ad6c57583c753efec177fd7d3c28843592056-audit.json",
+    "files": [
+        {
+            "date": 1726468223745,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-12-success.log",
+            "hash": "c842ea21431631ca213ff6087d540bdb980dea7bb18cd0c597ce65d7a6e84c92"
+        },
+        {
+            "date": 1726478233641,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-15-success.log",
+            "hash": "28d75f1b7f8c830a171a6d173d277dbefea0afba1ba3565c33cd8ff3cd088286"
+        },
+        {
+            "date": 1726486321477,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-16-17-success.log",
+            "hash": "05ec9d7e629e1c5a6bab8127237d569c8dc4a10ebb308921b7889906cb633e75"
+        },
+        {
+            "date": 1726594760553,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-17-23-success.log",
+            "hash": "6e748239b89b9b89ae2d84fd5a300914df78a17ec13b925d363d5987220bc992"
+        },
+        {
+            "date": 1726855200792,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-00-success.log",
+            "hash": "a18439ba3e3dc433c75723a69163c1e2c67b9c069f600e3f176542184cc38ebd"
+        },
+        {
+            "date": 1726898094526,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-11-success.log",
+            "hash": "c0488adeca59b19fb552f79f9b5dd1c15669c33a92a69f7766633769c32046bb"
+        },
+        {
+            "date": 1726898487842,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-12-success.log",
+            "hash": "1df647ad6c845c65cba30af29982d35958900bdb2c03f19e7603f403114c0eac"
+        },
+        {
+            "date": 1726933107447,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-21-21-success.log",
+            "hash": "e718a592e7136e29e24b19c67cdb99871a319d11d318a95137d49cd83c597357"
+        },
+        {
+            "date": 1726949493937,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-02-success.log",
+            "hash": "be645068be68d262a9b670ef3db98cf8ec17fe1671667c3e9c79357a5e73b0a4"
+        },
+        {
+            "date": 1727020096693,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-21-success.log",
+            "hash": "cdd26b1023a1ada2b90a3beb7992890d43225132d0b235f4104ea5b5f4703f23"
+        },
+        {
+            "date": 1727021031025,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-22-22-success.log",
+            "hash": "3b0c2e38c08e5302a5f152a367a95bbad1ce6c8cc32786a36fbf51e4de8bc05b"
+        },
+        {
+            "date": 1727110986349,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-23-23-success.log",
+            "hash": "2dec66799525bfe4d68b75b7766add071ecf63a2470f78b38bbc538c92893a5a"
+        },
+        {
+            "date": 1727198985910,
+            "name": "D:\\Project\\Digital-P-Diary\\logs\\winston\\success\\sh-2024-09-24-23-success.log",
+            "hash": "975dc32e716127aa70060e303f75641c9dcef3b63210017647dea1ea75ad1b16"
+        }
+    ],
+    "hashType": "sha256"
 }
